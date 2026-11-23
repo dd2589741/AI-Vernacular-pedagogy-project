@@ -1,0 +1,443 @@
+{
+  "version": "1.0",
+  "columns": {
+    "speaker1-educationLevel": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.060998"
+    },
+    "Domain": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061087"
+    },
+    "Elicitation Method": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061162"
+    },
+    "Target": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061232"
+    },
+    "speaker1-ageGroup": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061299"
+    },
+    "filename": {
+      "type": "string",
+      "required": true,
+      "nullable": false,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061365"
+    },
+    "audio_id": {
+      "type": "string",
+      "required": true,
+      "nullable": false,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061430"
+    },
+    "start_time": {
+      "type": "float",
+      "required": false,
+      "nullable": true,
+      "default": 0.0,
+      "added_at": "2026-06-22T02:19:55.061505"
+    },
+    "speaker1-educationMediumAfter12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061565"
+    },
+    "speaker1-typeOfPlace": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061626"
+    },
+    "sentenceId": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061694"
+    },
+    "speaker1-otherLanguages-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061756"
+    },
+    "speaker1-educationMediumUpto12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061815"
+    },
+    "publicSpeakerId": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061873"
+    },
+    "sentence-Tamil-transcription": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061932"
+    },
+    "sentence-IPA-transcription": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.061991"
+    },
+    "end_time": {
+      "type": "float",
+      "required": false,
+      "nullable": true,
+      "default": 0.0,
+      "added_at": "2026-06-22T02:19:55.062051"
+    },
+    "boundaryID": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.062110"
+    },
+    "speaker1-gender": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.062169"
+    },
+    "Q_Id": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.062229"
+    },
+    "speaker1-placeOfRecording": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:19:55.062288"
+    },
+    "audio": {
+      "type": "audio",
+      "required": true,
+      "nullable": false,
+      "default": null,
+      "added_at": "2026-06-22T02:19:55.062321"
+    },
+    "speaker5-educationMediumUpto12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.798437"
+    },
+    "speaker4-educationLevel": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.798531"
+    },
+    "speaker6-ageGroup": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.798608"
+    },
+    "speaker3-otherLanguages-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.798681"
+    },
+    "speaker5-educationLevel": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.798751"
+    },
+    "speaker4-typeOfPlace": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.798819"
+    },
+    "speaker2-ageGroup": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.798904"
+    },
+    "speaker6-typeOfPlace": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.798972"
+    },
+    "speaker3-placeOfRecording": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799043"
+    },
+    "speaker4-otherLanguages-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799107"
+    },
+    "speaker3-educationLevel": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799169"
+    },
+    "speaker6-gender": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799231"
+    },
+    "speaker5-ageGroup": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799293"
+    },
+    "speaker4-educationMediumAfter12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799355"
+    },
+    "speaker2-otherLanguages-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799418"
+    },
+    "speaker5-educationMediumAfter12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799480"
+    },
+    "speaker3-educationMediumUpto12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799541"
+    },
+    "speaker5-typeOfPlace": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799603"
+    },
+    "speaker5-placeOfRecording": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799668"
+    },
+    "speaker5-gender": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799732"
+    },
+    "speaker3-typeOfPlace": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799795"
+    },
+    "speaker6-placeOfRecording": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799860"
+    },
+    "speaker4-placeOfRecording": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799923"
+    },
+    "speaker6-educationMediumUpto12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.799986"
+    },
+    "speaker6-educationMediumAfter12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800048"
+    },
+    "speaker2-educationLevel": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800111"
+    },
+    "speaker3-ageGroup": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800173"
+    },
+    "speaker4-gender": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800236"
+    },
+    "speaker3-educationMediumAfter12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800299"
+    },
+    "speaker4-educationMediumUpto12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800362"
+    },
+    "speaker5-otherLanguages-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800430"
+    },
+    "speaker6-educationLevel": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800494"
+    },
+    "speaker6-otherLanguages-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800557"
+    },
+    "speaker2-educationMediumAfter12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800619"
+    },
+    "speaker2-gender": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800681"
+    },
+    "speaker2-educationMediumUpto12-list": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800746"
+    },
+    "speaker3-gender": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800807"
+    },
+    "speaker2-placeOfRecording": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800869"
+    },
+    "speaker4-ageGroup": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800931"
+    },
+    "speaker2-typeOfPlace": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "default": "N/A",
+      "added_at": "2026-06-22T02:20:02.800992"
+    }
+  },
+  "last_updated": "2026-06-22T02:20:11.994011",
+  "contributing_projects": [
+    "D_Irula_Translation_Transcription"
+  ]
+}
