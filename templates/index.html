@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>VaaniSetu</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>🌱 VaaniSetu</h1>
+
+        <p>Learn in Your Mother Tongue</p>
+
+    </header>
+
+    <main>
+
+        <section class="welcome">
+
+            <h2>வணக்கம் குழந்தைகளே! 👋</h2>
+
+            <p>Let's learn together!</p>
+
+        </section>
+
+        <section class="teacher">
+
+            <h2>👩‍🏫 Teacher's Lesson</h2>
+
+            <textarea
+                id="tamilInput"
+                placeholder="Enter the lesson in Tamil..."
+            ></textarea>
+
+            <button onclick="translateLesson()">
+
+                🌈 Translate Lesson
+
+            </button>
+
+        </section>
+
+        <section class="student">
+
+            <h2>📖 Lesson in Irula</h2>
+
+            <div id="translationOutput">
+
+                Your lesson will appear here!
+
+            </div>
+
+            <button onclick="speakLesson()">
+
+                🔊 Listen to the Lesson
+
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>VaaniSetu - AI Mother-Tongue Learning</p>
+
+    </footer>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
